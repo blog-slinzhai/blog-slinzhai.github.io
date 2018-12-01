@@ -3,8 +3,6 @@ title: Sort tensor in TensorFlow
 date: 2018-12-01 19:29:30
 ---
 
-# How to sort tensor in TensorFlow
-
 ```
 import tensorflow as tf
 
