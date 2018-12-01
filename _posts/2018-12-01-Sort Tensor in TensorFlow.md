@@ -5,7 +5,7 @@ date: 2018-12-01 19:29:30
 
 # How to sort tensor in TensorFlow
 
-(```)
+```
 import tensorflow as tf
 
 def sortTensor(tensor, ascend=False):
@@ -28,4 +28,4 @@ with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
         print(sess.run(idxs))
         coord.request_stop()
         coord.join(threads)
-(```)
+```
